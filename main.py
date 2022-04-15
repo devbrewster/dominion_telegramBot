@@ -185,7 +185,7 @@ def help_command(update: Update, context):
 
 def main():
     """ START the bot """
-    # create the updater and pass it to your bots token.
+    # create the updater and pass it to your bots token. Make sure the API-Key is not visible to the public
     updater = Updater('Enter you Telegram API Key here', use_context=True)
 
     # Get the dispatcher to register handlers
